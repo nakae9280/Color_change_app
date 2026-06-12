@@ -13,10 +13,10 @@ class ColorChangerApp(ctk.CTk):
 
         # 背景画像の読み込み（複数候補 + フォールバック）
         bg_candidates = [
-            os.path.join("UI_Image", "pink_tail.png"),
-            os.path.join("Ui_image", "pink_tail.png"),
-            os.path.join(os.path.dirname(os.path.dirname(__file__)), "UI_Image", "pink_tail.png"),
-            os.path.join(os.path.dirname(os.path.dirname(__file__)), "Ui_image", "pink_tail.png"),
+            os.path.join("UI_Image", "tail.png"),
+            os.path.join("Ui_image", "tail.png"),
+            os.path.join(os.path.dirname(os.path.dirname(__file__)), "UI_Image", "tail.png"),
+            os.path.join(os.path.dirname(os.path.dirname(__file__)), "Ui_image", "tail.png"),
         ]
         self.bg_photo = None
         for p in bg_candidates:
